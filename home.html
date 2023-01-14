@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourism</title>
+    <link rel="stylesheet" href="CSS/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Navbar Start-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary nav-custom fixed-top"
+    >
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://cdn.pixabay.com/photo/2016/12/28/08/15/hummingbird-1935665_960_720.png"
+          class="Navbar-logo"
+        />
+        <span class="ml-2 logo-heading">Explore Goa</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nav-links" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto nav-link">
+          <a class="nav-link active" href="home.html"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-link" href="nature.html">Nature</a>
+          <a class="nav-link" href="Arch.html">Architecture</a>
+          <a class="nav-link" href="cuisine.html">Cuisine</a>
+        </div>
+      </div>
+    </nav>
+    <!--Navbar Ends-->
+
+    <!--Home page starts-->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div id="sectionHome">
+            <div class="bg-container d-flex flex-column align-items-centre">
+              <div class="Tourism-card">
+                <div class="text-card">
+                  <h1 class="Tourism-heading">Goa</h1>
+                  <h2 class="Tourism-Sub-heading">Paradise of india</h2>
+                </div>
+                <hr color="black" />
+                <p class="Tourism-paragraph">
+                  Goa is a small state situated on the western coast of India.
+                  It was liberated from the rule of Portuguese in 1961 and is
+                  considered as the 25th State in the Union of States of India.
+                  On 30 May 1987, it became a separate state.<br />
+                  Located on the Western Ghats of Konkan, Goa is known as the
+                  smallest and the fourth smallest populated state of India. Goa
+                  is bounded by Maharashtra to its north, eastern and southern
+                  boundaries were formed by Karnataka, while the western coast
+                  is formed by Arabian Sea. It is also considered as the richest
+                  Indian state.<br />
+                  The largest city of Goa is Vasco da Gama while Panaji is the
+                  capital. Margao is known as the historic city of Goa that
+                  reflects the Portuguese culture. It is because the Portuguese
+                  landed here as merchants first and conquered the land in the
+                  early 16th century.<br />
+                  International and domestic tourists visit this tiny state
+                  every year, in a large number. Tourists are attracted to its
+                  golden beaches, architecture and places of worship. It is a
+                  biodiversity hotspot and is rich in flora and fauna.<br />
+                  Goa is known for sharing harmonious relationship among its
+                  various religious communities, living peacefully for
+                  generations. Goa is regarded as one of the best states of
+                  India in terms of investment environment and infrastructure.
+                </p>
+                <hr />
+                <button
+                  class="home-button mb-1"
+                  onclick="display('sectionFavouritePlaces')"
+                >
+                  Explore
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Home page Ends-->
+  </body>
+</html>

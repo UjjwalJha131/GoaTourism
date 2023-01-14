@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: auto;
+}
+
+div.col-12 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "cursive", Courier, monospace;
+}
+
+body {
+  background-color: #000;
+  
+  min-width: 100vw;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-primary {
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/01/01/17/beach-2562563_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: none;
+}
+
+.Navbar-logo {
+  width: 60px;
+  height: 60px;
+  margin-left: auto;
+  border-radius: 50%;
+  box-shadow: inset 10px 10px 30px ghostwhite, inset -5px -5px 30px ghostwhite;
+}
+
+.logo-heading {
+  color: ghostwhite;
+  font-size: 1.5rem;
+  text-shadow: 4px 6px 5px black;
+  font-family: cursive;
+  position: absolute;
+  margin-top: 0.7rem !important;
+}
+
+a.nav-link {
+  font-size: 1.3rem;
+  color: black !important;
+  font-family: cursive, Arial, sans-serif;
+  text-shadow: 4px 6px 10px !important;
+}
+
+a.nav-link:hover {
+  color: white !important;
+}
+
+.nav-align {
+  margin-right: auto;
+}
+
+/*****Nature Section****/
+
+.bg-container {
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cards {
+  border-radius: 35px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 5px 5px 20px black, -5px -5px 20px black, inset 10px 10px 20px ghostwhite, inset -10px -10px 20px ghostwhite;
+  margin: 30px 30px;
+  color: ghostwhite;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: left;
+  background-size: cover;
+}
+
+.card1 {
+  background-image: url("https://cdn.pixabay.com/photo/2014/06/29/12/53/lime-379377_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.card2 {
+  background-image: url("https://cdn.pixabay.com/photo/2014/12/21/23/25/apples-575317_960_720.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.card3 {
+  background-image: url("https://cdn.pixabay.com/photo/2014/06/11/17/00/food-366875_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.card4 {
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/31/18/49/alphabet-word-images-1294665_960_720.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.card5 {
+  background-image: url("https://cdn.pixabay.com/photo/2015/05/04/10/16/vegetables-752153_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.card6 {
+  background-image: url("https://cdn.pixabay.com/photo/2017/01/19/21/59/watermelon-1993503_960_720.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.card7 {
+  background-image: url("https://cdn.pixabay.com/photo/2017/01/17/23/08/tomato-1988465_960_720.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.cards h2 {
+  color: lime;
+  font-weight: 900;
+  padding: 10px 30px;
+}
+
+.cards p {
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  padding: 0px 0px 15px 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    width: 100%;
+  }
+}
