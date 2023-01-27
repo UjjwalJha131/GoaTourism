@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tourism</title>
-    <link rel="stylesheet" href="CSS/home.css" />
+    <link rel="stylesheet" href="CSS/index.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -22,6 +22,7 @@
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
@@ -33,13 +34,13 @@
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-primary nav-custom fixed-top"
     >
+    <div>
       <a class="navbar-brand" href="#">
-        <img
-          src="https://cdn.pixabay.com/photo/2016/12/28/08/15/hummingbird-1935665_960_720.png"
-          class="Navbar-logo"
-        />
-        <span class="ml-2 logo-heading">Explore Goa</span>
+        <iconify-icon icon="twemoji:flag-india" style="color: aqua;" width="50" height="50"></iconify-icon>
+        <span class=" logo-heading ml-3 mt-2 text-center">Explore Goa</span>
+        
       </a>
+    </div>
       <button
         class="navbar-toggler"
         type="button"
@@ -53,9 +54,10 @@
       </button>
       <div class="collapse navbar-collapse nav-links" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto nav-link">
-          <a class="nav-link active" href="home.html"
+          <a class="nav-link active" href="index.html"
             >Home <span class="sr-only">(current)</span></a
           >
+          <a class="nav-link" href="section.html">Section</a>
           <a class="nav-link" href="nature.html">Nature</a>
           <a class="nav-link" href="Arch.html">Architecture</a>
           <a class="nav-link" href="cuisine.html">Cuisine</a>
@@ -103,10 +105,8 @@
                   India in terms of investment environment and infrastructure.
                 </p>
                 <hr />
-                <button
-                  class="home-button mb-1"
-                  onclick="display('sectionFavouritePlaces')"
-                >
+                <a href="section.html"><button
+                  class="home-button text-center">
                   Explore
                 </button>
               </div>
